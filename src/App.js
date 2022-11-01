@@ -18,10 +18,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/Main" element={<MainPage />} />
           
         </Route>
-        <Route path="/IntroScreen" element={<IntroPage />} />
+        <Route path="/" element={<IntroPage />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/Signup" element={<SignUp />} />
       </Routes>

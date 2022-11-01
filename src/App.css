@@ -72,3 +72,76 @@ button:hover {
 .account-btn {
     margin: 10px;
 }
+
+.main-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.notifications {
+    width: 300px;
+    height: 600px;
+    border: 3px;
+    border-style: solid;
+    border-color: var(--borders);
+    margin: 20px;
+}
+
+.positions {
+    width: 300px;
+    height: 600px;
+    border: 3px;
+    border-style: solid;
+    border-color: var(--borders);
+    margin: 20px;
+}
+
+
+.intro-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}
+
+.login-page-btn {
+    margin: 10px;
+}
+
+.signup-page-btn {
+    margin: 5px;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}
+
+.login input {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.login button {
+    margin: 10px;
+    margin-left: 60px;
+}
+
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+}
+
+.signup input {
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.signup button{
+    margin: 10px;
+    margin-left: 20px;
+}

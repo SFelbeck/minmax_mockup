@@ -6,7 +6,6 @@ import SignUp from "./components/SignUp";
 import Header from "./components/Header";
 import Layout from "./components/Layout";
 
-
 //import routes
 import {
   BrowserRouter,

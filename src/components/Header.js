@@ -4,13 +4,15 @@ import React from "react";
 export default function Header() {
     return(
         <header class="header">
-            <img src={require("./assets/LogoIcon.png")} alt="MinMax logo" width="50px" height="50px" />
-            <input class="search-input" type="text" placeholder="Search..." />
-            <button class="search-btn">Search</button>
-            <div>
+            <img class="header-logo" src={require("./assets/LogoIcon.png")} alt="MinMax logo" width="50px" height="50px" />
+            <div class="search">
+                <input class="search-input" type="text" placeholder="Search..." />
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="nav">
                 <button class="library-btn">Library</button>
                 <button class="leaderboard-btn">Class Leaderboard</button>
-                <button class="Account-btn">Account</button>
+                <button class="account-btn">Account</button>
             </div>
         </header>
     )

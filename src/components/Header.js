@@ -6,7 +6,7 @@ export default function Header() {
         <header class="header">
             <img class="header-logo" src={require("./assets/LogoIcon.png")} alt="MinMax logo" width="50px" height="50px" />
             <div class="search">
-                <input class="search-input" type="text" placeholder="Search..." />
+                <input id="search-input" class="text-input" type="text" placeholder="Search..." />
                 <button class="search-btn">Search</button>
             </div>
             <div class="nav">

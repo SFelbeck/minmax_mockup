@@ -31,6 +31,12 @@ button:hover {
     cursor: pointer;
 }
 
+.text-input {
+    border: 3px solid var(--borders);
+    border-radius: 5px;
+    outline: none;
+}
+
 .header {
     height: 100px;
     width:100%;
@@ -50,8 +56,9 @@ button:hover {
     margin: 10px;
 }
 
-.search-input {
+#search-input {
     width: 300px;
+    margin: 10px;
 }
 
 

@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS minmax_db;
+
+CREATE DATABASE minmax_db;

@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Stock extends Model { }
+class Comment extends Model { }
 
-Stock.init(
+Comment.init(
     {
         id: {
             type: DataTypes.INTEGER,
@@ -11,26 +11,23 @@ Stock.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
+        content: {
             type: DataTypes.STRING,
             allowNull: false,
         },
-        amountOwned: {
-            type: DataTypes.INTEGER,
-            allowNull: true,
-        },
-        value: {
-            type: DataTypes.NUMBER,
+        date_created: {
+            type: DataTypes.DATE,
             allowNull: false,
+            defaultValue: DataTypes.NOW
         },
     },
     {
         sequelize,
-        timestamps: false,
+        timestamps: true,
         freezeTableName: true,
         underscored: true,
-        modelName: 'stock',
+        modelName: 'comment',
     }
 );
 
-module.exports = Stock;
+module.exports = Comment;

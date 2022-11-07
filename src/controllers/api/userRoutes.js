@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { User, Stock, Comment } = require("../../models");
+const { User, Stock, Comment } = require("../../components/models");
 const bcrypt = require("bcrypt");
 
 router.get("/", (req, res) => {

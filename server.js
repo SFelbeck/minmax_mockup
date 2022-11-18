@@ -1,6 +1,6 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
-const allRoutes = require("./src/controllers");
+const allRoutes = require("./src/components/controllers");
 const session = require("express-session");
 const sequelize = require("./src/components/config/connection");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
@@ -15,7 +15,7 @@ app.use(express.json());
 const sess = {
     secret: process.env.SESSION_SECRET,
     cookie: {
-        //idk if anything goes here :P
+        maxAge: 2 * 60 * 60 * 1000
     },
     resave: false,
     saveUninitialized: true,

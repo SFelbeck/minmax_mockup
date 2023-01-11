@@ -20,7 +20,7 @@ Stock.init(
             allowNull: true,
         },
         value: {
-            type: DataTypes.NUMBER,
+            type: DataTypes.INTEGER,
             allowNull: false,
         },
     },

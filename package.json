@@ -23,7 +23,10 @@
     "sequelize": "^6.25.3",
     "web-vitals": "^2.1.4",
     
-    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SFelbeck/minmax_mockup"
   },
   "scripts": {
     "start": "react-scripts start",

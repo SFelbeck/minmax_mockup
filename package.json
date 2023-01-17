@@ -23,6 +23,7 @@
     "sequelize": "^6.25.3",
     "web-vitals": "^2.1.4",
     
+    "type": "2.7.2"
   },
   "repository": {
     "type": "git",
